@@ -1,0 +1,50 @@
+body {
+    background: #ccc;
+}
+
+.container {
+    position: relative;
+    background: aliceblue;
+    width: 80%;
+    height: 400px;
+    border: 5px solid red;
+    margin: auto;
+    overflow: hidden;
+    margin-top: 50px;
+}
+#bird {
+    background: url('favicon.png');
+    position: absolute;
+    background-size: contain;
+    background-repeat: no-repeat; 
+    top:20%;
+    left:15%;
+    width:50px;
+    height:50px;
+}
+.pole {
+    height: 130px;
+    width:50px;
+    background-color: red;
+    position: absolute;
+    right: 50px;
+}
+#pole_1 {
+    top: 0;    
+}
+#pole_2 {
+    bottom: 0;    
+}
+#score_div {
+    text-align: center;
+    font-size: 30px;
+}
+#restart_btn {
+    position: absolute;
+    top:0;
+    background: red;
+    color:white;
+    font-size: 25px;
+    width:100%;
+    display: none;
+}
